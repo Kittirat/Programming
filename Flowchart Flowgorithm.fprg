@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KENG.P"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-08-03 10:06:12 PM"/>
+        <attribute name="created" value="S0VORy5QO0tFTkc7MjU2Mi0wOC0wMzswNToyODo1NyBQTTsyMDA5"/>
+        <attribute name="edited" value="S0VORy5QO0tFTkc7MjU2Mi0wOC0wMzsxMDowNjoxMiBQTTsxOzIxMDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="FE" type="Real" array="False" size=""/>
+            <declare name="GB" type="Real" array="False" size=""/>
+            <declare name="ICS" type="Real" array="False" size=""/>
+            <declare name="CP" type="Real" array="False" size=""/>
+            <assign variable="FE" expression="85"/>
+            <assign variable="GB" expression="85.5"/>
+            <assign variable="ICS" expression="80"/>
+            <assign variable="CP" expression="85"/>
+            <output expression="&quot;-----Your Score-----&quot;" newline="True"/>
+            <output expression="&quot;Foundation English :&quot;&amp;FE" newline="True"/>
+            <output expression="&quot;General Business :&quot;&amp;GB" newline="True"/>
+            <output expression="&quot;Introduction to Computer Systems :&quot;&amp;ICS" newline="True"/>
+            <output expression="&quot;Computer Programming:&quot;&amp;CP" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
